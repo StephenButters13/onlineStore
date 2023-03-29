@@ -15,10 +15,10 @@ Fill the document out following the guidelines listed in each section. Maintain 
 
 When a change is made to the document, a new revision should be created. The revision should be added to the table below with all information filled out.
 
-| Version | Date     | Description   | Author                            | Reviewed By                      |
-| ------- | -------- | ------------- | --------------------------------- | -------------------------------- |
-| 1.0     | 03/22/23 | Initial draft | [David Gary](mailto:dgary9@uncc.edu) | [David Gary](mailto:dgary@uncc.edu) |
-| 1.0     | 03/28/23 | Added name    | Nehemias Galvan                   | Nehemias Galvan                  |
+| Version | Date     | Description             | Author                            | Reviewed By                      |
+| ------- | -------- | ----------------------- | --------------------------------- | -------------------------------- |
+| 1.0     | 03/22/23 | Initial draft           | [David Gary](mailto:dgary9@uncc.edu) | [David Gary](mailto:dgary@uncc.edu) |
+| 1.0     | 03/28/23 | Added name and revision | Nehemias Galvan                   | Nehemias Galvan                  |
 
 ## Table of Contents
 
