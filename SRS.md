@@ -73,24 +73,24 @@ Each group member must supply at least three functional requirements for the pro
   * **Priority:** 3
   * **Rationale:** So then users can see the book's information, like cost and an image.
   * **Testing:** click on a book to show the information
-  * **ID:** A unique identifier for the requirement. This should be a number that is unique across the entire document (something like REQ-1, REQ-2, etc. but be sure to replace the word `ID` with the unique identifier).
-  * **Description:** A short description of the requirement. This should be a single sentence that describes the requirement.
-  * **Type:** The type of requirement. Should be either `Functional` or `Non-Functional`.
-  * **Priority:** The priority of the requirement. This should be a number between 1 and 5, with 1 being the highest priority and 5 being the lowest priority.
-  * **Rationale:** A short description of why the requirement is important. This should be a single sentence that describes why the requirement is important.
-  * **Testing:** A short description of how the requirement can be tested. This should be a single sentence that describes how the requirement can be tested.
-  * **ID:** A unique identifier for the requirement. This should be a number that is unique across the entire document (something like REQ-1, REQ-2, etc. but be sure to replace the word `ID` with the unique identifier).
-  * **Description:** A short description of the requirement. This should be a single sentence that describes the requirement.
-  * **Type:** The type of requirement. Should be either `Functional` or `Non-Functional`.
-  * **Priority:** The priority of the requirement. This should be a number between 1 and 5, with 1 being the highest priority and 5 being the lowest priority.
-  * **Rationale:** A short description of why the requirement is important. This should be a single sentence that describes why the requirement is important.
-  * **Testing:** A short description of how the requirement can be tested. This should be a single sentence that describes how the requirement can be tested.
-  * **ID:** A unique identifier for the requirement. This should be a number that is unique across the entire document (something like REQ-1, REQ-2, etc. but be sure to replace the word `ID` with the unique identifier).
-  * **Description:** A short description of the requirement. This should be a single sentence that describes the requirement.
-  * **Type:** The type of requirement. Should be either `Functional` or `Non-Functional`.
-  * **Priority:** The priority of the requirement. This should be a number between 1 and 5, with 1 being the highest priority and 5 being the lowest priority.
-  * **Rationale:** A short description of why the requirement is important. This should be a single sentence that describes why the requirement is important.
-  * **Testing:** A short description of how the requirement can be tested. This should be a single sentence that describes how the requirement can be tested.
+* **ID: REQ-7** Previewing first book page
+  * **Description:** Create an option for the user to see the first page of the book.
+  * **Type:** Functional
+  * **Priority:** 5
+  * **Rationale:** Reading the first page of the book can give the customer a better understanding of the book and interest them into purchasing the book.
+  * **Testing:** Click on an option for previewing the first page and if it pulls up the first page of that book it works.
+* **ID: REQ-8** Creating a cart
+  * **Description:** Allow the user to create a cart that lets the user buy multiple books at once
+  * **Type:** Fuctional
+  * **Priority:** 3
+  * **Rationale:** This makes it easier to let the user buy multiple items.
+  * **Testing:** The user should be able to click add book to cart and see all the books in the cart in the see cart menu
+* **ID: REQ-9** Account Information
+  * **Description:** The user should see the details of their account such as their name, when the account was created, and any saved data such as credit cards or addresses
+  * **Type:** Functional
+  * **Priority:** 2
+  * **Rationale:** This gives the user an easy way to see their information on the website and it lets them know if they need to change a credit card or address
+  * **Testing:** The user should be able to click on their account icon and they should see all their information including their name, when the account was created, and any saved data such as credit cards or addresses
   * **ID:** A unique identifier for the requirement. This should be a number that is unique across the entire document (something like REQ-1, REQ-2, etc. but be sure to replace the word `ID` with the unique identifier).
   * **Description:** A short description of the requirement. This should be a single sentence that describes the requirement.
   * **Type:** The type of requirement. Should be either `Functional` or `Non-Functional`.
