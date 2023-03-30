@@ -184,6 +184,12 @@ In this section, you should list user stories for the project. User stories are 
 * **US-2:** Logging in
   * **Type of User:** Customer
   * **Description:** The customer uses the login page to access the products in the system and shops.
+* **ID: US-3** Searching for a specific book
+  * **Type of User:** Customer
+  * **Description:** This user wants to buy a specific book, but they don't want to look through the books on the website
+* **ID: US-4** Adding a book to the cart
+  * **Type of User:** Customer
+  * **Description:** This customer wants to buy multiple books at the same time instead of going through the buying process one by one
 
 ## Glossary
 
