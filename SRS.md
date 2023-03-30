@@ -196,16 +196,21 @@ In this section, you should list user stories for the project. User stories are 
 * **US-6:** Renting a book
   * **Type of User:** Customer
   * **Description:** The user clicks on the rent now button of the slected item and sends them to checkout.
-* **US-7:** Renting a book
-  * **Type of User:** Customer
-  * **Description:** So the user will want to buy something so in the process of doing it they will reach a point where they need to add their shipping information, once they have filled out all the required stuff then it will let them keep going.
-* **US-8:** Renting a book
-  * **Type of User:** Customer
-  * **Description:** Once the customer has inputed their shipping information then they will be prompted to enter their payment information to then complete the purchase and gain access to the book/s and a recipte.
-  
+* **US-7**
+  * Type of User: Customer
+  * Description: So the user will want to buy something so in the process of doing it they will reach a point where they need to add their shipping information, once they have filled out all the required stuff then it will let them keep going.
+* **US-8**
+  * Type of User: Customer.
+  * Description: Once the customer has inputed their shipping information then they will be prompted to enter their payment information to then complete the purchase and gain access to the book/s and a recipte.
 ## Glossary
 
 In this section, you should list any terms that are used in the document that may not be immediately obvious to a naive reader. Each group member must supply at least one term. Each term should be written in the following format:
 
-* **Term:** The term that is being defined. This should be a single word or phrase that is being defined.
-  * **Definition:** A definition of the term. This should be a short description of the term that is being defined. This should be a single sentence that describes the term.
+* **Term:** Product ID
+  * **Definition:** The term defines a unique key to a product that separates it from the rest of the products.
+* **Term:** Online Cart
+  * **Definition:** A list of items a customer is planning to purchase
+* **Term:** Rent
+    * **Definition:** Paying a person for the use of an object
+* **Term:** Account
+  * **Definition:** A web record which saves users data about the website.
