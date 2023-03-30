@@ -143,6 +143,16 @@ In this section, you should list use cases for the project. Use cases are a thor
   * **Actors:** The customer and the login page.
   * **Preconditions:**A customer must have an existing account to log in, if not refer to a sign-up page.
   * **Postconditions:** After the login the customer must have access to the products on the website and the website should be able to recognize the user.
+* **ID: UC-3** Seaching a book
+  * **Description:** The user should have the option to search for a specific book title. The user should be able to click on a bar and type in a title of a book. If our store has a book with that title it should be the only book that shows up.
+  * **Actors:** Customer and the website
+  * **Preconditions:** The store can only display the searched book if the store has it
+  * **Postconditions:** If the store does not have the book, the store will not display it. If the store does have it, it will be displayed.
+* **ID: UC-4** Adding a book to the cart
+  * **Description:** The user should be able to click a button to add the book to a cart, allowing them to look and buy multiple books. They should also be able to click on see cart and see the books in their cart.
+  * **Actors:** Customer and the website
+  * **Preconditions:** The website will not display a cart until 1 book is in the cart
+  * **Postconditions:** If a book is in the cart the user should be able to buy it and see it.
 
 ## User Stories
 
