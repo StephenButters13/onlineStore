@@ -206,5 +206,11 @@ In this section, you should list user stories for the project. User stories are 
 
 In this section, you should list any terms that are used in the document that may not be immediately obvious to a naive reader. Each group member must supply at least one term. Each term should be written in the following format:
 
-* **Term:** The term that is being defined. This should be a single word or phrase that is being defined.
-  * **Definition:** A definition of the term. This should be a short description of the term that is being defined. This should be a single sentence that describes the term.
+* **Term:** Product ID
+  * **Definition:** The term defines a unique key to a product that separates it from the rest of the products.
+* **Term:** Online Cart
+  * **Definition:** A list of items a customer is planning to purchase
+* **Term:** Rent
+    * **Definition:** Paying a person for the use of an object
+* **Term:** Account
+  * **Definition:** A web record which saves users data about the website.
