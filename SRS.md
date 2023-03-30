@@ -91,24 +91,24 @@ Each group member must supply at least three functional requirements for the pro
   * **Priority:** 2
   * **Rationale:** This gives the user an easy way to see their information on the website and it lets them know if they need to change a credit card or address
   * **Testing:** The user should be able to click on their account icon and they should see all their information including their name, when the account was created, and any saved data such as credit cards or addresses
-  * **ID:** A unique identifier for the requirement. This should be a number that is unique across the entire document (something like REQ-1, REQ-2, etc. but be sure to replace the word `ID` with the unique identifier).
-  * **Description:** A short description of the requirement. This should be a single sentence that describes the requirement.
-  * **Type:** The type of requirement. Should be either `Functional` or `Non-Functional`.
-  * **Priority:** The priority of the requirement. This should be a number between 1 and 5, with 1 being the highest priority and 5 being the lowest priority.
-  * **Rationale:** A short description of why the requirement is important. This should be a single sentence that describes why the requirement is important.
-  * **Testing:** A short description of how the requirement can be tested. This should be a single sentence that describes how the requirement can be tested.
-  * **ID:** A unique identifier for the requirement. This should be a number that is unique across the entire document (something like REQ-1, REQ-2, etc. but be sure to replace the word `ID` with the unique identifier).
-  * **Description:** A short description of the requirement. This should be a single sentence that describes the requirement.
-  * **Type:** The type of requirement. Should be either `Functional` or `Non-Functional`.
-  * **Priority:** The priority of the requirement. This should be a number between 1 and 5, with 1 being the highest priority and 5 being the lowest priority.
-  * **Rationale:** A short description of why the requirement is important. This should be a single sentence that describes why the requirement is important.
-  * **Testing:** A short description of how the requirement can be tested. This should be a single sentence that describes how the requirement can be tested.
-  * **ID:** A unique identifier for the requirement. This should be a number that is unique across the entire document (something like REQ-1, REQ-2, etc. but be sure to replace the word `ID` with the unique identifier).
-  * **Description:** A short description of the requirement. This should be a single sentence that describes the requirement.
-  * **Type:** The type of requirement. Should be either `Functional` or `Non-Functional`.
-  * **Priority:** The priority of the requirement. This should be a number between 1 and 5, with 1 being the highest priority and 5 being the lowest priority.
-  * **Rationale:** A short description of why the requirement is important. This should be a single sentence that describes why the requirement is important.
-  * **Testing:** A short description of how the requirement can be tested. This should be a single sentence that describes how the requirement can be tested.
+* **REQ-10**
+  * **Description:** Allows user to search for a book.
+  * **Type:** `Functional`
+  * **Priority:** 5
+  * **Rationale:** It is not fully necessary and is more of a quality of life addition.
+  * **Testing:** 	We go onto the page and see if the book we searched pops up.
+* **REQ-11**
+  * **Description:** Asks user to enter your shipping information.
+  * **Type:** `Functional`
+  * **Priority:** 4
+  * **Rationale:** It is one of the last steps for buying a book.
+  * **Testing:** Enter the shiping information and see that it shows in the system.
+* **REQ-12**
+  * **Description:** Asks user for payment information.
+  * **Type:** `Functional`
+  * **Priority:** 4
+  * **Rationale:** It is one of the last steps for buying a book.
+  * **Testing:** Enter the payment information and see that it shows in the system.
 ## Constraints
 
 In this section, you should list any constraints that you have for the project. Each group member must supply at least two constraints. These can be constraints on the project itself, the software system, or the stakeholders. Constraints can be anything that limits the scope of the project. For example, that this project's template code is written using Flask and Python constitutes a constraint on the backend of the project. Constraints can also be things like the required timeline of the project. Be creative.
