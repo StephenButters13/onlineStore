@@ -190,7 +190,12 @@ In this section, you should list user stories for the project. User stories are 
 * **ID: US-4** Adding a book to the cart
   * **Type of User:** Customer
   * **Description:** This customer wants to buy multiple books at the same time instead of going through the buying process one by one
-
+* **US-5:** Buying a book
+  * **Type of User:** Customer
+  * **Description:** The user clicks on the buy now button of the item they select and sends them to check-outt
+* **US-6:** Renting a book
+  * **Type of User:** Customer
+  * **Description:** The user clicks on the rent now button of the slected item and sends them to checkout.
 ## Glossary
 
 In this section, you should list any terms that are used in the document that may not be immediately obvious to a naive reader. Each group member must supply at least one term. Each term should be written in the following format:
