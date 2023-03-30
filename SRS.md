@@ -153,7 +153,16 @@ In this section, you should list use cases for the project. Use cases are a thor
   * **Actors:** Customer and the website
   * **Preconditions:** The website will not display a cart until 1 book is in the cart
   * **Postconditions:** If a book is in the cart the user should be able to buy it and see it.
-
+* **UC-5:** Buying a book
+  * **Description:**  When clicked, sends customer to checkout with book   
+  * **Actors:** A customer and the website
+  * **Preconditions:** Customer must have been logged into their account and have found a book that they would like to buy
+  * **Postconditions:** Customer must put in their payment information and shipping address to buy it
+* **UC-6:** Renting a book
+  * **Description:**  When clicked, send customer to the checkout
+  * **Actors:** A customer and the website
+  * **Preconditions:** Customer must have been logged into their account and have found a book that they would like to rent
+  * **Postconditions:** Customer must put in their payment information and shipping address to rent it
 ## User Stories
 
 In this section, you should list user stories for the project. User stories are a short description of how a user will be interacting with the system. Each group member must supply at least two user stories. Each user story should be written in the following format:
