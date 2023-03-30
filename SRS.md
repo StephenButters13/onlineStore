@@ -9,7 +9,7 @@ Fill the document out following the guidelines listed in each section. Maintain 
 * [Stephen Butters](sbutter2@uncc.edu)
 * [Nehemias Galvan](mmailto:ngalvan@uncc.edu)
 * [Ibad Sheikh](isheikh@uncc.edu)
-* [Name](mmailto:email@uncc.edu)
+* [Mark Schwarzmann](mschwa22@uncc.edu)
 
 ## Revisions
 
@@ -32,17 +32,17 @@ When a change is made to the document, a new revision should be created. The rev
 ## Introduction
 
 In this section, you should give a brief overview of what your project will be. Describe the software system you are building and what problems it solves. You should also give a short description of the stakeholders (users of the system) and what their needs are. There is no set formatting requirement, but you should maintain a consistent structure across future sections. Not all members must contribute to this section.
-
+The software system that our group are building is an online bookstore.  The program would display an image of the books a user could buy or rent.  Stakeholders would be the users who would like to buy/rent the books out.  The stakeholder's needs would be the item that they would like to acquire.
 ## Requirements
 
 Each group member must supply at least three functional requirements for the project. Each requirement should be written in the following format:
 
-* **ID:** A unique identifier for the requirement. This should be a number that is unique across the entire document (something like REQ-1, REQ-2, etc. but be sure to replace the word `ID` with the unique identifier).
-  * **Description:** A short description of the requirement. This should be a single sentence that describes the requirement. Do not replace the word `Description` with the actual description. Put the description in the space where these instructions are written. Maintain that practice for all future sections.
-  * **Type:** The type of requirement. Should be either `Functional` or `Non-Functional`.
-  * **Priority:** The priority of the requirement. This should be a number between 1 and 5, with 1 being the highest priority and 5 being the lowest priority.
-  * **Rationale:** A short description of why the requirement is important. This should be a single sentence that describes why the requirement is important.
-  * **Testing:** A short description of how the requirement can be tested. This should be a single sentence that describes how the requirement can be tested.
+* **REQ-1:** User Login 
+  * **Description:** A way user can acess their pre existing account
+  * **Type:** Functional
+  * **Priority:** 1 
+  * **Rationale:** because it's needed to access the account.
+  * **Testing:** Entering username and passowrd and compare it our system.
 * **ID:** A unique identifier for the requirement. This should be a number that is unique across the entire document (something like REQ-1, REQ-2, etc. but be sure to replace the word `ID` with the unique identifier).
   * **Description:** A short description of the requirement. This should be a single sentence that describes the requirement.
   * **Type:** The type of requirement. Should be either `Functional` or `Non-Functional`.
