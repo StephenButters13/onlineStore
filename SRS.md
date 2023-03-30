@@ -184,7 +184,25 @@ In this section, you should list user stories for the project. User stories are 
 * **US-2:** Logging in
   * **Type of User:** Customer
   * **Description:** The customer uses the login page to access the products in the system and shops.
-
+* **ID: US-3** Searching for a specific book
+  * **Type of User:** Customer
+  * **Description:** This user wants to buy a specific book, but they don't want to look through the books on the website
+* **ID: US-4** Adding a book to the cart
+  * **Type of User:** Customer
+  * **Description:** This customer wants to buy multiple books at the same time instead of going through the buying process one by one
+* **US-5:** Buying a book
+  * **Type of User:** Customer
+  * **Description:** The user clicks on the buy now button of the item they select and sends them to check-outt
+* **US-6:** Renting a book
+  * **Type of User:** Customer
+  * **Description:** The user clicks on the rent now button of the slected item and sends them to checkout.
+* **US-7:** Renting a book
+  * **Type of User:** Customer
+  * **Description:** So the user will want to buy something so in the process of doing it they will reach a point where they need to add their shipping information, once they have filled out all the required stuff then it will let them keep going.
+* **US-8:** Renting a book
+  * **Type of User:** Customer
+  * **Description:** Once the customer has inputed their shipping information then they will be prompted to enter their payment information to then complete the purchase and gain access to the book/s and a recipte.
+  
 ## Glossary
 
 In this section, you should list any terms that are used in the document that may not be immediately obvious to a naive reader. Each group member must supply at least one term. Each term should be written in the following format:
