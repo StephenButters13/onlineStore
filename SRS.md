@@ -8,7 +8,7 @@ Fill the document out following the guidelines listed in each section. Maintain 
 
 * [Stephen Butters](sbutter2@uncc.edu)
 * [Nehemias Galvan](mmailto:ngalvan@uncc.edu)
-* [Name](mmailto:email@uncc.edu)
+* [Ibad Sheikh](isheikh@uncc.edu)
 * [Name](mmailto:email@uncc.edu)
 
 ## Revisions
