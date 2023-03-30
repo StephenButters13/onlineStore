@@ -133,11 +133,16 @@ After April 26, the remaining time should be used to make sure all functions wor
 
 In this section, you should list use cases for the project. Use cases are a thorough description of how the system will be used. Each group member must supply at least two use cases. Each use case should be written in the following format:
 
-* **ID:** A unique identifier for the use case. This should be a number that is unique across the entire document (something like UC-1, UC-2, etc. but be sure to replace the word `ID` with the unique identifier).
-  * **Description:** A description of the use case that gives the user a high-level overview of how the system is interacted with.
-  * **Actors:** A list of the actors that are involved in the use case. Only include the actors that are directly involved. Actors are the people or things that interact with the system. For example, when ordering at a fast food restaurant, one might have the following actors: the customer, the cashier, and the cook. But only the customer and the cashier are directly involved in the use case of ordering food. The cook is not directly involved in the use case of ordering food.
-  * **Preconditions:** A list of the preconditions for the use case. This should be a list of the preconditions for the use case, which are the conditions that must be met before the use case can be executed. Continuing with the restaurant example, the customer must have money in their wallet and the cashier must be logged in to the system before the use case of ordering food can be executed.
-  * **Postconditions:** A list of the postconditions for the use case. This should be a list of the postconditions for the use case, which are the conditions that must be met after the use case has been executed. Continuing with the restaurant example, the customer must have their food and the cashier must have the customer's money after the use case of ordering food has been executed.
+* **UC-1:** Creating An Account/Signing up
+  * **Description:** This is required to sign up before accessing the website 
+  * **Actors:** The user and then the signup page
+  * **Preconditions:** A customer must not have a pre-existing account.
+  * **Postconditions:** The user must have an account after signing up and the website should have account information for that user.
+* **UC-2:** Customer Login
+  * **Description:** Provide access to the customer once he/she provides the correct login information.
+  * **Actors:** The customer and the login page.
+  * **Preconditions:**A customer must have an existing account to log in, if not refer to a sign-up page.
+  * **Postconditions:** After the login the customer must have access to the products on the website and the website should be able to recognize the user.
 
 ## User Stories
 
