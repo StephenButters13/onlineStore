@@ -32,7 +32,7 @@ When a change is made to the document, a new revision should be created. The rev
 ## Introduction
 
 In this section, you should give a brief overview of what your project will be. Describe the software system you are building and what problems it solves. You should also give a short description of the stakeholders (users of the system) and what their needs are. There is no set formatting requirement, but you should maintain a consistent structure across future sections. Not all members must contribute to this section.
-
+The software system that our group are building is an online bookstore.  The program would display an image of the books a user could buy or rent.
 ## Requirements
 
 Each group member must supply at least three functional requirements for the project. Each requirement should be written in the following format:
