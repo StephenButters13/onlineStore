@@ -178,9 +178,12 @@ In this section, you should list use cases for the project. Use cases are a thor
 
 In this section, you should list user stories for the project. User stories are a short description of how a user will be interacting with the system. Each group member must supply at least two user stories. Each user story should be written in the following format:
 
-* **ID:** A unique identifier for the user story. This should be a number that is unique across the entire document (something like US-1, US-2, etc. but be sure to replace the word `ID` with the unique identifier).
-  * **Type of User:** The type of user that the user story is for. This should be a single word that describes the type of user. For example, a user story for a customer might be `Customer` and a user story for an administrator might be `Admin`.
-  * **Description:** A description of the user story that gives a narrative from that user's perspective. This can be any length, but it must paint the picture of what the user wants to do, how they intend to do it, why they want to, and what they expect to happen.
+* **US-1:** Customer Signing in
+  * **Type of User:** Customer
+  * **Description:** The user uses the sign-up page to create an account for the website.
+* **US-2:** Logging in
+  * **Type of User:** Customer
+  * **Description:** The customer uses the login page to access the products in the system and shops.
 
 ## Glossary
 
