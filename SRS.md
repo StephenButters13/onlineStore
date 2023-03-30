@@ -6,8 +6,8 @@ Fill the document out following the guidelines listed in each section. Maintain 
 
 ## Group Members
 
-* [Ibad](isheikh@uncc.edu)
-* [Name](mmailto:email@uncc.edu)
+* [Stephen Butters](sbutter2@uncc.edu)
+* [Nehemias Galvan](mmailto:ngalvan@uncc.edu)
 * [Name](mmailto:email@uncc.edu)
 * [Name](mmailto:email@uncc.edu)
 
@@ -15,9 +15,10 @@ Fill the document out following the guidelines listed in each section. Maintain 
 
 When a change is made to the document, a new revision should be created. The revision should be added to the table below with all information filled out.
 
-| Version | Date | Description | Author | Reviewed By |
-| --- | --- | --- | --- | --- |
-| 1.0 | 03/22/23 | Initial draft | [David Gary](mailto:dgary9@uncc.edu) | [David Gary](mailto:dgary@uncc.edu) |
+| Version | Date     | Description             | Author                            | Reviewed By                      |
+| ------- | -------- | ----------------------- | --------------------------------- | -------------------------------- |
+| 1.0     | 03/22/23 | Initial draft           | [David Gary](mailto:dgary9@uncc.edu) | [David Gary](mailto:dgary@uncc.edu) |
+| 1.0     | 03/28/23 | Added name and revision | Nehemias Galvan                   | Nehemias Galvan                  |
 
 ## Table of Contents
 
