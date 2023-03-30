@@ -113,13 +113,22 @@ Each group member must supply at least three functional requirements for the pro
 
 In this section, you should list any constraints that you have for the project. Each group member must supply at least two constraints. These can be constraints on the project itself, the software system, or the stakeholders. Constraints can be anything that limits the scope of the project. For example, that this project's template code is written using Flask and Python constitutes a constraint on the backend of the project. Constraints can also be things like the required timeline of the project. Be creative.
 * **Constraint 1:**
+This should use either python, html, javascript, or flask
 * **Constraint 2:**
+The group should meetup when working together
 * **Constraint 3:**
+The website shouldn't give errors or crash
 * **Constraint 4:**
+It should display on computer and phone
 * **Constraint 5:**
+All priority 1 Requirements should be completed by April 15
 * **Constraint 6:**
+All priority 2-3 Requirements should be completed by April 21
 * **Constraint 7:**
+All priority 4-5 Requirements should be completed by April 26
 * **Constraint 8:**
+After April 26, the remaining time should be used to make sure all functions work together
+
 ## Use Cases
 
 In this section, you should list use cases for the project. Use cases are a thorough description of how the system will be used. Each group member must supply at least two use cases. Each use case should be written in the following format:
