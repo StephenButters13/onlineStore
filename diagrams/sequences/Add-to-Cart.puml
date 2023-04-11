@@ -1,0 +1,17 @@
+@startuml add-to-cart
+actor Customer
+boundary "System" as system
+control "Sessions" as sessions
+control "Authentication" as auth
+database "Database" as db
+Customer -> system: Presses "Add to Cart" button
+activate system
+system -> db: getBook_Info(name)
+activate db
+db --> system: getBook_Info
+deactivate db
+system -> system: +1 to the Cart image and addCart(name, username)
+Customer -> system: Goes to Cart
+system -> system: Displays book in cart
+deactivate system
+@enduml
