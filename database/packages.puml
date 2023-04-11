@@ -6,10 +6,10 @@ package "database" as database #aliceblue {
 }
 package "database.db" as database.db #aliceblue {
     insert_new_item -> None
-    get_full_inventory
-    get_all_item_ids
-    get_item_name_by_id
-    get_item_info_by_id
+    get_full_inventory -> None
+    get_all_item_ids -> None
+    get_item_name_by_id -> None
+    get_item_info_by_id -> None
     get_item_price_by_id
     get_item_stock_by_id
     get_item_image_url_by_id
