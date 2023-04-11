@@ -1,0 +1,15 @@
+@startuml search
+actor Customer
+boundary "System" as system
+control "Sessions" as sessions
+control "Authentication" as auth
+database "Database" as db
+Customer -> system: Search for book
+activate system
+system -> db: getBook_Info(name)
+activate db
+db --> system: getBook_Info
+deactivate db
+system -> system: Display book
+deactivate system
+@enduml

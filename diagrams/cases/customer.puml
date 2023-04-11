@@ -2,19 +2,21 @@
 left to right direction
 actor Customer
 rectangle "System" as system {
+  (Sign-Up)
   (Login)
-  (Register)
-  (View Cart)
-  (View Items)
-  (View Orders)
-  (View Profile)
-  (Logout)
+  (Search)
+  (Add to Cart)
+  (Renting)
+  (Buying)
+  (Shipping Info)
+  (Payment Info)
 }
+Customer --> (Sign-Up)
 Customer --> (Login)
-Customer --> (Register)
-Customer --> (View Cart)
-Customer --> (View Items)
-Customer --> (View Orders)
-Customer --> (View Profile)
-Customer --> (Logout)
+Customer --> (Search)
+Customer --> (Add to Cart)
+Customer --> (Renting)
+Customer --> (Buying)
+Customer --> (Shipping Info)
+Customer --> (Payment Info)
 @enduml

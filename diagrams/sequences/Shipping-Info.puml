@@ -1,0 +1,15 @@
+@startuml shipping-info
+actor Customer
+boundary "System" as system
+control "Sessions" as sessions
+control "Authentication" as auth
+database "Database" as db
+Customer -> system: Entering shipping info
+activate system
+system -> db: saveShipping(username, address)
+activate db
+db --> system: none
+deactivate db
+system -> system: Display that it is done and needs to move to payment info
+deactivate system
+@enduml

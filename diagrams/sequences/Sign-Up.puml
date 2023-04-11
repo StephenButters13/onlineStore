@@ -1,0 +1,21 @@
+@startuml sign-up
+actor Customer
+boundary "System" as system
+control "Sessions" as sessions
+control "Authentication" as auth
+database "Database" as db
+Customer -> system: Sign-up
+activate system
+system -> system: Go to Sign-Up page
+Customer -> system: Creates username and password
+system -> db: add_new_user(username, password)
+activate db
+db --> system: True
+deactivate db
+system -> sessions: add_new_session(username, db)
+activate sessions
+sessions --> system: None
+deactivate sessions
+system -> system: Go to home page
+deactivate system
+@enduml

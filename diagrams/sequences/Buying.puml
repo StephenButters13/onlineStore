@@ -1,0 +1,16 @@
+@startuml buying
+actor Customer
+boundary "System" as system
+control "Sessions" as sessions
+control "Authentication" as auth
+database "Database" as db
+Customer -> system: Buying a book
+activate system
+system -> db: getBook_Price(name)
+activate db
+db --> system: price
+deactivate db
+system -> system: calcTotalBuying(price)
+system -> system: Proceed to shipping info
+deactivate system
+@enduml
