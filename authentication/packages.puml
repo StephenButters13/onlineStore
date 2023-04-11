@@ -1,0 +1,21 @@
+@startuml
+set namespaceSeparator none
+package "authentication" as authentication #aliceblue {
+      id -> none
+      username -> none
+      password -> none
+      email -> none
+      register -> none
+      login -> none
+      logout -> none 
+      reset_password -> none
+}
+package "authentication.authTools" as authentication.authTools #aliceblue {
+      id -> none
+      token -> none
+      user_id -> none
+      expiration_time -> none
+      generate_token -> none
+     
+}
+@enduml
