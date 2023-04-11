@@ -20,5 +20,9 @@ class "UserSession" as core.session.UserSession #aliceblue {
   submit_cart() -> None
   update_item_quantity(id: str, change_to_quantity: int) -> None
   update_total_cost() -> None
+  buy_book() -> None
+  rent_book() -> None
+  cart_book() -> None
+  search_book() -> None
 }
 @enduml
