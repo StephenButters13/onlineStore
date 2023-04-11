@@ -1,0 +1,27 @@
+@startuml packages
+set namespaceSeparator none
+package "testing" as testing #aliceblue {
+    testing.authTests -> testing
+    testing.coreTests -> testing
+    testing.dbTests -> testing
+    None -> None
+}
+package "testing.authTests" as testing.authTests #aliceblue {
+    test_buy -> None
+    test_renting -> None
+    test_login -> None
+}
+package "testing.coreTests" as testing.coreTests #aliceblue {
+    test_search -> None
+    test_book_info -> None
+    test_preview -> None
+    test_shipping_info -> None
+    test_payment_info -> None
+    test_add_cart -> None
+}
+package "testing.dbTests" as testing.dbTests #aliceblue {
+    test_account_created -> None
+    test_existing_account -> None
+    test_account_info -> None
+}
+@enduml
