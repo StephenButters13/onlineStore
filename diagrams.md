@@ -88,19 +88,19 @@ actor Customer
 rectangle "System" as system {
   (Login)
   (Register)
-  (View Cart)
-  (View Items)
-  (View Orders)
-  (View Profile)
-  (Logout)
+  (Searching)
+  (Add Items to Cart)
+  (Buy A Book)
+  (Enter Shipping Info)
+  (Enter Payment Info)
 }
 Customer --> (Login)
-Customer --> (Register)
-Customer --> (View Cart)
-Customer --> (View Items)
-Customer --> (View Orders)
-Customer --> (View Profile)
-Customer --> (Logout)
+Customer -->  (Register)
+Customer -->  (Searching)
+Customer -->  (Add Items to Cart)
+Customer -->  (Buy A Book)
+Customer -->  (Enter Shipping Info)
+Customer -->  (Enter Payment Info)
 @enduml
 ```
 
