@@ -1,10 +1,25 @@
 @startuml packages
 set namespaceSeparator none
 package "core" as core #aliceblue {
+    empty_cart -> dict
+    is_item_in_cart -> bool
+    add_new_item -> None
+    update_item_quantity -> None
+    remove_item -> None
+    update_total_cost -> None
+    submit_cart -> None
 }
 package "core.session" as core.session #aliceblue {
+    add_new_session -> None
+    get_session -> UserSession
+    remove_session -> None
+    get_all_sessions -> dict
 }
 package "core.utils" as core.utils #aliceblue {
+    dict_factory -> dict
+    calculate_cost -> float
+    calculate_total_cost -> float
+    generate_unique_id -> str
 }
 core.session --> core.utils
 @enduml
