@@ -10,47 +10,47 @@ package "database.db" as database.db #aliceblue {
     get_all_item_ids -> None
     get_item_name_by_id -> None
     get_item_info_by_id -> None
-    get_item_price_by_id
-    get_item_stock_by_id
-    get_item_image_url_by_id
-    get_item_category_by_id
-    set_item_name
-    set_item_info
-    set_item_price
-    set_item_stock
-    set_item_image_url
-    set_item_category
+    get_item_price_by_id -> None
+    get_item_stock_by_id -> None
+    get_item_image_url_by_id -> None
+    get_item_category_by_id -> None
+    set_item_name -> None
+    set_item_info -> None
+    set_item_price -> None
+    set_item_stock -> None
+    set_item_image_url -> None
+    set_item_category -> None
     insert_user -> None
-    get_all_user_information
-    get_password_hash_by_username
-    get_email_by_username
-    get_first_name_by_username
-    get_last_name_by_username
-    set_password_hash
-    set_email
-    set_first_name
-    set_last_name
-    insert_new_sale
-    get_full_sales_information
-    get_transaction_id_by_sale_id
-    get_username_by_sale_id
-    get_item_id_by_sale_id
-    get_quantity_by_sale_id
-    get_sale_date_by_sale_id
-    get_cost_by_sale_id
-    get_full_sale_by_id
-    get_sales_by_transaction_id
-    get_sales_by_username
-    get_sales_by_item_id
-    get_sales_by_date_range
-    get_sales_by_quantity_range
-    get_sales_by_cost_range
-    set_sale_transaction_id
-    set_sale_username
-    set_sale_item_id
-    set_sale_date
-    set_sale_quantity
-    set_sale_cost
+    get_all_user_information -> None
+    get_password_hash_by_username -> None
+    get_email_by_username -> None
+    get_first_name_by_username -> None
+    get_last_name_by_username -> None
+    set_password_hash -> None
+    set_email -> None
+    set_first_name -> None
+    set_last_name -> None
+    insert_new_sale -> None
+    get_full_sales_information -> None
+    get_transaction_id_by_sale_id -> None
+    get_username_by_sale_id -> None
+    get_item_id_by_sale_id -> None
+    get_quantity_by_sale_id -> None
+    get_sale_date_by_sale_id -> None
+    get_cost_by_sale_id -> None
+    get_full_sale_by_id -> None
+    get_sales_by_transaction_id -> None
+    get_sales_by_username -> None
+    get_sales_by_item_id -> None
+    get_sales_by_date_range -> None
+    get_sales_by_quantity_range -> None
+    get_sales_by_cost_range -> None
+    set_sale_transaction_id -> None
+    set_sale_username -> None
+    set_sale_item_id -> None
+    set_sale_date -> None
+    set_sale_quantity -> None
+    set_sale_cost -> None
 }
 
 @enduml
