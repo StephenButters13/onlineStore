@@ -1,11 +1,13 @@
 CREATE TABLE inventory (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     item_name VARCHAR(255) NOT NULL,
+    author VARCHAR(255) NOT NULL,
     info VARCHAR(255) NOT NULL,
     price DECIMAL(10,2) NOT NULL,
     stock INTEGER NOT NULL,
     image_url VARCHAR(255) NOT NULL,
-    category VARCHAR(255) NOT NULL
+    genre VARCHAR(255) NOT NULL,
+    book_pagecount INTEGER NOT NULL
 );
 
 CREATE TABLE users (
@@ -13,7 +15,9 @@ CREATE TABLE users (
     password_hash VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL,
     first_name VARCHAR(255) NOT NULL,
-    last_name VARCHAR(255) NOT NULL
+    last_name VARCHAR(255) NOT NULL,
+    user_address VARCHAR(255) NOT NULL,
+    user_payment VARCHAR(255) NOT NULL
 );
 
 CREATE TABLE sales (
