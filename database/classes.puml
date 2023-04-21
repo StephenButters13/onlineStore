@@ -50,9 +50,9 @@ class "Database" as database.db.Database #aliceblue {
   set_sale_quantity(sale_id: int, new_quantity: int)
   set_sale_transaction_id(sale_id: int, new_transaction_id: int)
   set_sale_username(sale_id: int, new_username: str)
-  get_shippingaddress(sale_id:int)
-  set_shippingaddress(sale_id: int, address: str)
-  get_payment(sale_id: int)
-  set_payment(sale_id: int, payment_method: PaymentObject)
+  get_address(sale_id: int)
+  set_address(sale_id: int, address: str)
+  get_payment_method(sale_id: int)
+  set_payment_method(sale_id: int, payment_method: str)
 }
 @enduml

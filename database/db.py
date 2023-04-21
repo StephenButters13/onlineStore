@@ -337,6 +337,20 @@ class Database:
         self.cursor.execute(
             "SELECT last_name FROM users WHERE username = ?", (username,))
         return self.cursor.fetchone()
+    
+    # New Get Methods
+    
+    def get_address(self, username: str):
+        "Gets the address of a user from the database."
+        self.cursor.execute(
+            "SELECT address FROM users WHERE username = ?", (username,))
+        return self.cursor.fetchone()
+    
+    def get_payment_method(self, username: str):
+        "Gets the payment method of a user in the database"
+        self.cursor.execute(
+            "SELECT payment_method FROM users WHERE username = ?", (username,))
+        return self.cursor.fetchone()
 
     # ------ Setter methods ------
 
@@ -399,6 +413,16 @@ class Database:
         self.cursor.execute(
             "UPDATE users SET last_name = ? WHERE username = ?", (new_last_name, username))
         self.connection.commit()
+        
+        ## New Set Methods
+    
+    def set_address(self, username: str, new_address: str):
+        self.cursor.execute(
+            "UPDATE users SET address = ? WHERE address = ?" , (new_address, username))
+        self.connection.commit()
+        
+    def set_payment(self, username: str, new_payment_method: str):
+        self.cursor.execute("UPDATE users SET payment_method = ? WHERE payment_method = ?" , (new_payment_method, username))
 
     # --------------------------------------------
     # ------------------ Sales -------------------
