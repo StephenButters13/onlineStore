@@ -1,0 +1,13 @@
+Methods tested:
+test_set_address
+    4/29/2023
+    Test works as expected
+test_set_payment
+    4/29/2023
+    Test works as expected
+test_get_payment
+    4/29/2023
+    Test works as expected
+test_get_address
+    4/29/2023
+    Test works as expected
