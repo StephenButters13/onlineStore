@@ -57,12 +57,30 @@ class UserSession:
 
     def add_new_item(self, id: str, name: str, price: int, quantity: int, discount: float = 0.0, tax_rate: float = 0.05) -> None:
         """
-        Creates a new item to add to the user's cart.
+        Creates a new item to add to the user's cart using the buy price.
 
         args:
             - id: The id of the item.
             - name: The name of the item.
-            - price: The price of the item.
+            - price: The buy price of the item.
+            - quantity: The quantity of the item.
+            - discount: The discount of the item.
+            - tax_rate: The tax rate of the item.
+
+        returns:
+            - None
+        """
+        self.cart[id] = {"name": name, "price": price, "quantity": quantity,
+                         "discount": discount, "tax_rate": tax_rate}
+        
+    def add_new_rent_item(self, id: str, name: str, price: int, quantity: int, discount: float = 0.0, tax_rate: float = 0.05) -> None:
+        """
+        Creates a new item to add to the user's cart using the rent price.
+
+        args:
+            - id: The id of the item.
+            - name: The name of the item.
+            - price: The rent price of the item.
             - quantity: The quantity of the item.
             - discount: The discount of the item.
             - tax_rate: The tax rate of the item.
@@ -113,7 +131,45 @@ class UserSession:
         """
         self.update_total_cost()
         self.date = datetime.now()
+        
+    def buy_book(self, id: str, name: str, price: int, quantity: int, discount: float = 0.0, tax_rate: float = 0.05) -> None:
+        """
+        Directly buys a new item using the buy price by putting it in the cart and taking the user to the checkout page
 
+        args:
+            - id: The id of the item.
+            - name: The name of the item.
+            - price: The buy price of the item.
+            - quantity: The quantity of the item.
+            - discount: The discount of the item.
+            - tax_rate: The tax rate of the item.
+
+        returns:
+            - None
+        """
+        self.cart[id] = {"name": name, "price": price, "quantity": quantity,
+                         "discount": discount, "tax_rate": tax_rate}
+        self.total_cost = calculate_total_cost(self.cart)
+        
+    def rent_book(self, id: str, name: str, price: int, quantity: int, discount: float = 0.0, tax_rate: float = 0.05) -> None:
+        """
+        Directly buys a new item using the rent price by putting it in the cart and taking the user to the checkout page
+
+        args:
+            - id: The id of the item.
+            - name: The name of the item.
+            - price: The price of the item.
+            - quantity: The quantity of the item.
+            - discount: The discount of the item.
+            - tax_rate: The tax rate of the item.
+
+        returns:
+            - None
+        """
+        self.cart[id] = {"name": name, "price": price, "quantity": quantity,
+                         "discount": discount, "tax_rate": tax_rate}
+        self.total_cost = calculate_total_cost(self.cart)        
+    
 
 class Sessions:
     """
