@@ -168,8 +168,8 @@ class UserSession:
         """
         self.cart[id] = {"name": name, "price": price, "quantity": quantity,
                          "discount": discount, "tax_rate": tax_rate}
-        self.total_cost = calculate_total_cost(self.cart)        
-    
+        self.total_cost = calculate_total_cost(self.cart)       
+        
 
 class Sessions:
     """
