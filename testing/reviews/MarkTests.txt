@@ -1,3 +1,0 @@
-name           when        comments/concerns
-test_buy_book  04/29/2023  works as expected!
-test_rent_book 04/29/2023  works as expected!
