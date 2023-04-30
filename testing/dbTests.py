@@ -86,3 +86,51 @@ def test_check_connection_threaded(db: Database = None) -> tuple:
         return False, error
     else:
         return True, "Connection is not single threaded."
+
+
+#New Test Methods
+
+
+def test_set_address(db: Database = None):
+    "Tests to set a new address for a user"
+    db = Database("database/storeRecords.db")
+    db.set_address("papa", "2954 Lion Creek Lane")
+    
+    
+    if db.get_last_name_by_username("papa") == "2954 Lion Creek Lane":
+        return True, "Current address did change"
+    else:
+        error = f"Error in test_set_address: Did not change address"
+        return False, error
+
+def test_set_payment(db: Database = None):
+    "Tests to set a new payment for a user"
+    db = Database("database/storeRecords.db")
+    db.set_payment("papa", "1234567890098765 635 09/24")
+    
+    if db.get_payment_method("papa") == "1234567890098765 635 09/24":
+        return True, "Currrent payment set"
+    else:
+        error = f"Error in test_set_payment: Did not change payment"
+        return False, error
+    
+def test_get_payment(db: Database = None):
+    "Tests to get a users currently set payment"
+    db = Database("database/storeRecords.db")
+    
+    if db.get_payment_method("papa") == None:
+        return True, "Got correct payment type"
+    else:
+        error = f"Error in test_get_payment: Got the wrong payment"
+        return False, error
+
+def test_get_address(db: Database = None):
+    "Tests to get a users currently set address"
+    db = Database("database/storeRecords.db")
+    
+    if db.get_address("papa") == None:
+        return True, "Got correct address"
+    else:
+        error = f"Error in test_get_address: Did not get correct payment"
+        return False, error
+    
