@@ -121,3 +121,48 @@ def test_get_session_db() -> tuple:
         return False, error
     else:
         return True, "Session's database is correct."
+
+# New Tests     
+def test_buy_book() -> tuple:
+    """
+    Tests that a book has been bought correctly.
+
+    args:
+        - None
+
+    returns:
+        - error_report: a tuple containing a boolean and a string, 
+          where the boolean is True if the test passed and False if it failed, 
+          and the string is the error report.
+    """
+    
+    
+    UserSession.buy_book("3", "Snow", 14, 3, 0.0, 0.05)
+    
+    if UserSession.is_item_in_cart(UserSession,"3") != True:
+        error = f"Error in test_get_session_db: Session's database is incorrect.\n  - Expected: {True}\n  - Actual: {False}"
+        return False, error
+    else:
+        return True, "Session's database is correct."
+    
+def test_rent_book() -> tuple:
+    """
+    Tests that a book has been rented correctly.
+
+    args:
+        - None
+
+    returns:
+        - error_report: a tuple containing a boolean and a string, 
+          where the boolean is True if the test passed and False if it failed, 
+          and the string is the error report.
+    """
+    
+    
+    UserSession.buy_book("3", "Snow", 14, 3, 0.0, 0.05)
+    
+    if UserSession.is_item_in_cart(UserSession,"3") != True:
+        error = f"Error in test_get_session_db: Session's database is incorrect.\n  - Expected: {True}\n  - Actual: {False}"
+        return False, error
+    else:
+        return True, "Session's database is correct."
