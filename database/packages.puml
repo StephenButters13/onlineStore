@@ -26,10 +26,14 @@ package "database.db" as database.db #aliceblue {
     get_email_by_username -> None
     get_first_name_by_username -> None
     get_last_name_by_username -> None
+    get_address -> None
+    get_payment_method -> None
     set_password_hash -> None
     set_email -> None
     set_first_name -> None
     set_last_name -> None
+    set_address -> None
+    set_payment_method -> None
     insert_new_sale -> None
     get_full_sales_information -> None
     get_transaction_id_by_sale_id -> None
