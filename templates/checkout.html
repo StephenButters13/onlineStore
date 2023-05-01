@@ -9,30 +9,24 @@
         <div class="row">
             <h5> Your Total </h5>
             <p>${{ total_cost }} </p>
-            <form action="/payment" method="post">
-                <div class="form-group">
-                    <div class="row">
-                        {% for product in products %}
-                        <div class="col-md-4">
-                            <div class="product_card" id="product_card">
-                                <img src="{{ product.image_url }}" class="product_card-img" alt="...">
-                                <div class="product_card-body">
-                                    <h5 class="product_card-title">{{ product.item_name }}</h5>
-                                    <p class="product_card-text">{{ product.info }}</p>
-                                    <p class="product_card-price">${{ product.price }}</p>
-                                    <input type="number" class="quantity" id={{product.id}} name={{product.id}}
-                                        placeholder="0">
-                                </div>
-                            </div>
-                        </div>
-                        {% endfor %}
-                    </div>
+            <form action="/home" method="post" id="login_form">
+                <div class="form-group" id="info_form_group">
+                    <label for="username">Card Number</label>
+                    <input type="text" class="form-control" id="username" name="username" placeholder="0123-4567-8901">
                 </div>
-                <div class="row">
-                    <div class="col-md-12" id="index_buttons">
-                        <button type="submit" class="btn btn-primary" id="checkout_button">Pay with Credit Card</button>
-                    </div>
+                <div class="form-group" id="info_form_group">
+                    <label for=" password">Experation Date</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="mm/dd">
                 </div>
+                <div class="form-group" id="info_form_group">
+                    <label for=" password">CVV</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="000">
+                </div>
+                <div class="form-group" id="info_form_group">
+                    <label for=" password">Address</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Place Address Here">
+                </div>
+                <button type="submit" class="btn btn-primary" id="login_button">Pay with Credit Card</button>
             </form>
         </div>
     </div>
